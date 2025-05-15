@@ -1,0 +1,24 @@
+{
+  "name": "@rodrigodev/qa-setup",
+  "version": "1.0.0",
+  "description": "CLI para configurar Jest, Cypress e Testing Library em projetos front-end",
+  "main": "dist/index.js",
+  "bin": {
+    "qa-setup": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/prompts": "^2.4.9",
+    "chalk": "^5.3.0",
+    "prompts": "^2.4.2",
+    "typescript": "^5.3.3"
+  },
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^14.3.3"
+  }
+}
